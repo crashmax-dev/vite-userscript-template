@@ -1,12 +1,13 @@
-import { resolve } from 'path'
 import { defineConfig } from 'vite'
-import { UserscriptPlugin } from 'vite-userscript-plugin'
+import Redom from 'vite-redom-jsx'
+import Userscript from 'vite-userscript-plugin'
 import { name, version } from './package.json'
 
 export default defineConfig({
   plugins: [
-    UserscriptPlugin({
-      entry: resolve(__dirname, 'src/index.ts'),
+    Redom(),
+    Userscript({
+      entry: 'src/index.tsx',
       metadata: {
         name,
         version,
