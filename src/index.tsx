@@ -1,4 +1,4 @@
-import { mount } from 'redom'
+import { mount } from 'redom-jsx'
 import './style.scss'
 
 function App() {
