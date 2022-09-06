@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        vite-userscript-template
-// @version     0.0.0
+// @version     0.0.1
 // @homepage    https://crashmax-dev.github.io/vite-userscript-template/
 // @match       https://example.com
 // @grant       GM_addStyle
