@@ -2,11 +2,12 @@
   color: #fff;
   background-color: #333;
 
-  .title {
-    text-decoration: underline;
-  }
-
-  a {
-    color: #637fff;
+  button {
+    background-color: #e7e7e7;
+    color: #000;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    margin-right: 6px;
   }
 }

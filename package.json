@@ -22,6 +22,7 @@
     "vite-userscript-plugin": "^1.2.2"
   },
   "dependencies": {
-    "redom-jsx": "^3.29.3"
+    "@reatom/core": "2.0.20",
+    "redom-jsx": "^3.29.4"
   }
 }
