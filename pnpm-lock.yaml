@@ -5,7 +5,7 @@ specifiers:
   '@crashmax/tsconfig': ^1.0.2
   '@types/tampermonkey': ^4.0.5
   babel-plugin-transform-react-jsx: ^6.24.1
-  redom-jsx: ^3.29.3
+  redom-jsx: ^3.29.4
   sass: ^1.54.9
   typescript: ^4.8.3
   vite: ^3.1.1
@@ -13,7 +13,7 @@ specifiers:
   vite-userscript-plugin: ^1.2.2
 
 dependencies:
-  redom-jsx: 3.29.3
+  redom-jsx: 3.29.4
 
 devDependencies:
   '@crashmax/prettier-config': 2.0.3_kh24rxe7vdex46rsdybx5uv35u
@@ -23,7 +23,7 @@ devDependencies:
   sass: 1.54.9
   typescript: 4.8.3
   vite: 3.1.1_sass@1.54.9
-  vite-redom-jsx: 2.0.4_l2uv4yqcg7vnhxv7cv7as4a6cu
+  vite-redom-jsx: 2.0.4_lzwl2hoenm2zjo75trnnnsrhfy
   vite-userscript-plugin: 1.2.2_dle5itios7uk2avgza5cjm2z4q
 
 packages:
@@ -1145,8 +1145,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /redom-jsx/3.29.3:
-    resolution: {integrity: sha512-BbmgdVeHNGPPU1k181/0PHkzOknUz5ErUwpri8Xh5qOlCPqdgQ/gAj7pVlL7JpjtyDByu2H0UrBcV9BpDxbR0w==}
+  /redom-jsx/3.29.4:
+    resolution: {integrity: sha512-6WfPCZKSLPYqffL6TjTzVnHbwSQcyw4YIONUdGGxK2uOYMfQ7KYiDdex5tW4ctGTYHs8Ia8WHqxdy6GPYCc3zg==}
 
   /regenerator-runtime/0.11.1:
     resolution: {integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==}
@@ -1300,7 +1300,7 @@ packages:
     resolution: {integrity: sha512-4+wkEYLBbWxqTahEsWrhxepcoVOJ+1z5PGIjPZxRkytcdSUaNjIjBM7Xn8E+pdSuV7SzvWovBFA54FO0JSoqhA==}
     dev: true
 
-  /vite-redom-jsx/2.0.4_l2uv4yqcg7vnhxv7cv7as4a6cu:
+  /vite-redom-jsx/2.0.4_lzwl2hoenm2zjo75trnnnsrhfy:
     resolution: {integrity: sha512-A3as0h4J2b6sTofavYK9JsRrpwucRKlrM+OQA1/1o/5NOnCScPrbsWHx4SwcHgZk8jNTg05kzjHtPL5/TSJIHg==}
     peerDependencies:
       redom-jsx: '>=3.29.0'
@@ -1308,7 +1308,7 @@ packages:
     dependencies:
       '@babel/core': 7.19.1
       babel-plugin-transform-redom-jsx: 3.0.5_@babel+core@7.19.1
-      redom-jsx: 3.29.3
+      redom-jsx: 3.29.4
       vite: 3.1.1_sass@1.54.9
     transitivePeerDependencies:
       - supports-color

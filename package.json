@@ -22,6 +22,6 @@
     "vite-userscript-plugin": "^1.2.2"
   },
   "dependencies": {
-    "redom-jsx": "^3.29.3"
+    "redom-jsx": "^3.29.4"
   }
 }
