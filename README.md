@@ -2,6 +2,13 @@
 
 > This template is based on [Vite](https://vitejs.dev) and [vite-userscript-plugin](https://github.com/crashmax-dev/vite-userscript-plugin)
 
+## Branches
+
+- [master (redom)](https://github.com/crashmax-dev/vite-userscript-template)
+- [jsx (redom-jsx)](https://github.com/crashmax-dev/vite-userscript-template/tree/jsx)
+- [reatom (redom-jsx + reatom v2)](https://github.com/crashmax-dev/vite-userscript-template/tree/reatom)
+
+
 ## Development
 
 - Allow Tampermonkey's access to [local file URI's](https://tampermonkey.net/faq.php?ext=dhdg#Q204)
