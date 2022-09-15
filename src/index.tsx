@@ -8,7 +8,12 @@ function App() {
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, ipsa.
       </p>
-      <a href="https://google.com" target="_blank">Link</a>
+      <a
+        href="https://google.com"
+        target="_blank"
+      >
+        Link
+      </a>
     </div>
   )
 }
