@@ -5,15 +5,14 @@ specifiers:
   '@crashmax/tsconfig': ^1.0.2
   '@types/tampermonkey': ^4.0.5
   babel-plugin-transform-react-jsx: ^6.24.1
-  redom-jsx: ^3.29.3
+  redom: ^3.29.1
   sass: ^1.54.9
   typescript: ^4.8.3
   vite: ^3.1.1
-  vite-redom-jsx: ^2.0.4
   vite-userscript-plugin: ^1.2.2
 
 dependencies:
-  redom-jsx: 3.29.3
+  redom: 3.29.1
 
 devDependencies:
   '@crashmax/prettier-config': 2.0.3_kh24rxe7vdex46rsdybx5uv35u
@@ -23,7 +22,6 @@ devDependencies:
   sass: 1.54.9
   typescript: 4.8.3
   vite: 3.1.1_sass@1.54.9
-  vite-redom-jsx: 2.0.4_l2uv4yqcg7vnhxv7cv7as4a6cu
   vite-userscript-plugin: 1.2.2_dle5itios7uk2avgza5cjm2z4q
 
 packages:
@@ -54,31 +52,8 @@ packages:
     dependencies:
       '@ampproject/remapping': 2.2.0
       '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.17.7
-      '@babel/helper-compilation-targets': 7.19.1_@babel+core@7.17.8
-      '@babel/helper-module-transforms': 7.19.0
-      '@babel/helpers': 7.19.0
-      '@babel/parser': 7.17.8
-      '@babel/template': 7.18.10
-      '@babel/traverse': 7.17.3
-      '@babel/types': 7.17.0
-      convert-source-map: 1.8.0
-      debug: 4.3.4
-      gensync: 1.0.0-beta.2
-      json5: 2.2.1
-      semver: 6.3.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@babel/core/7.19.1:
-    resolution: {integrity: sha512-1H8VgqXme4UXCRv7/Wa1bq7RVymKOzC7znjyFM8KiEzwFqcKUKYNoQef4GhdklgNvoBXyW4gYhuBNCM5o1zImw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@ampproject/remapping': 2.2.0
-      '@babel/code-frame': 7.18.6
       '@babel/generator': 7.19.0
-      '@babel/helper-compilation-targets': 7.19.1_@babel+core@7.19.1
+      '@babel/helper-compilation-targets': 7.19.1_@babel+core@7.17.8
       '@babel/helper-module-transforms': 7.19.0
       '@babel/helpers': 7.19.0
       '@babel/parser': 7.19.1
@@ -98,7 +73,7 @@ packages:
     resolution: {integrity: sha512-oLcVCTeIFadUoArDTwpluncplrYBmTCCZZgXCbgNGvOBBiSDDK3eWO4b/+eOTli5tKv1lg+a5/NAXg+nTcei1w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.17.0
+      '@babel/types': 7.19.0
       jsesc: 2.5.2
       source-map: 0.5.7
     dev: true
@@ -120,19 +95,6 @@ packages:
     dependencies:
       '@babel/compat-data': 7.19.1
       '@babel/core': 7.17.8
-      '@babel/helper-validator-option': 7.18.6
-      browserslist: 4.21.4
-      semver: 6.3.0
-    dev: true
-
-  /@babel/helper-compilation-targets/7.19.1_@babel+core@7.19.1:
-    resolution: {integrity: sha512-LlLkkqhCMyz2lkQPvJNdIYU7O5YjWRgC2R4omjCTpZd8u8KMQzZvX4qce+/BluN1rcQiV7BoGUpmQ0LeHerbhg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    dependencies:
-      '@babel/compat-data': 7.19.1
-      '@babel/core': 7.19.1
       '@babel/helper-validator-option': 7.18.6
       browserslist: 4.21.4
       semver: 6.3.0
@@ -179,11 +141,6 @@ packages:
       '@babel/types': 7.19.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@babel/helper-plugin-utils/7.19.0:
-    resolution: {integrity: sha512-40Ryx7I8mT+0gaNxm8JGTZFUITNqdLAgdg0hXzeVZxVD6nFsdhQvip6v8dqkRHzsz1VFpFAaOCHNn0vKBL7Czw==}
-    engines: {node: '>=6.9.0'}
     dev: true
 
   /@babel/helper-simple-access/7.18.6:
@@ -240,7 +197,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.17.0
+      '@babel/types': 7.19.0
     dev: true
 
   /@babel/parser/7.19.1:
@@ -249,16 +206,6 @@ packages:
     hasBin: true
     dependencies:
       '@babel/types': 7.19.0
-    dev: true
-
-  /@babel/plugin-syntax-jsx/7.18.6_@babel+core@7.19.1:
-    resolution: {integrity: sha512-6mmljtAedFGTWu2p/8WIORGwy+61PLgOMPOdazc7YoJ9ZCWUyFy3A6CpPkRKLKD1ToAesxX8KGEViAiLo9N+7Q==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.19.1
-      '@babel/helper-plugin-utils': 7.19.0
     dev: true
 
   /@babel/template/7.18.10:
@@ -275,13 +222,13 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.17.7
+      '@babel/generator': 7.19.0
       '@babel/helper-environment-visitor': 7.18.9
       '@babel/helper-function-name': 7.19.0
       '@babel/helper-hoist-variables': 7.18.6
       '@babel/helper-split-export-declaration': 7.18.6
-      '@babel/parser': 7.17.8
-      '@babel/types': 7.17.0
+      '@babel/parser': 7.19.1
+      '@babel/types': 7.19.0
       debug: 4.3.4
       globals: 11.12.0
     transitivePeerDependencies:
@@ -447,14 +394,6 @@ packages:
       babel-helper-builder-react-jsx: 6.26.0
       babel-plugin-syntax-jsx: 6.18.0
       babel-runtime: 6.26.0
-    dev: true
-
-  /babel-plugin-transform-redom-jsx/3.0.5_@babel+core@7.19.1:
-    resolution: {integrity: sha512-ZrYZTktvqlzaYKKvQE0TYYQImJNx7mw8O/05IamprmS6YnoUuur5mkuOifH3cy+boAnCOA3s08Sg1gUDhqkVtA==}
-    dependencies:
-      '@babel/plugin-syntax-jsx': 7.18.6_@babel+core@7.19.1
-    transitivePeerDependencies:
-      - '@babel/core'
     dev: true
 
   /babel-runtime/6.26.0:
@@ -1145,8 +1084,9 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /redom-jsx/3.29.3:
-    resolution: {integrity: sha512-BbmgdVeHNGPPU1k181/0PHkzOknUz5ErUwpri8Xh5qOlCPqdgQ/gAj7pVlL7JpjtyDByu2H0UrBcV9BpDxbR0w==}
+  /redom/3.29.1:
+    resolution: {integrity: sha512-hEQEcPGRj4W2UT4IIBsNw29zMNV6vtXQ8ttitQ+Uc5XpdQ7i8d5VgKfm6fPmYbbApKXa98dUoEzDgk1oqXVlMg==}
+    dev: false
 
   /regenerator-runtime/0.11.1:
     resolution: {integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==}
@@ -1298,20 +1238,6 @@ packages:
 
   /utf8-byte-length/1.0.4:
     resolution: {integrity: sha512-4+wkEYLBbWxqTahEsWrhxepcoVOJ+1z5PGIjPZxRkytcdSUaNjIjBM7Xn8E+pdSuV7SzvWovBFA54FO0JSoqhA==}
-    dev: true
-
-  /vite-redom-jsx/2.0.4_l2uv4yqcg7vnhxv7cv7as4a6cu:
-    resolution: {integrity: sha512-A3as0h4J2b6sTofavYK9JsRrpwucRKlrM+OQA1/1o/5NOnCScPrbsWHx4SwcHgZk8jNTg05kzjHtPL5/TSJIHg==}
-    peerDependencies:
-      redom-jsx: '>=3.29.0'
-      vite: '>=2.9.0'
-    dependencies:
-      '@babel/core': 7.19.1
-      babel-plugin-transform-redom-jsx: 3.0.5_@babel+core@7.19.1
-      redom-jsx: 3.29.3
-      vite: 3.1.1_sass@1.54.9
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /vite-userscript-plugin/1.2.2_dle5itios7uk2avgza5cjm2z4q:
