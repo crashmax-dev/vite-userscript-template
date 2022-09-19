@@ -15,8 +15,8 @@
     "@crashmax/tsconfig": "^1.0.2",
     "sass": "^1.54.9",
     "typescript": "^4.8.3",
-    "vite": "^3.1.2",
-    "vite-userscript-plugin": "^1.4.0"
+    "vite": "^3.1.3",
+    "vite-userscript-plugin": "^1.5.0"
   },
   "dependencies": {
     "redom": "^3.29.1"
