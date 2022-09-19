@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import Redom from 'vite-redom-jsx'
 import Userscript from 'vite-userscript-plugin'
-import { name, version, homepage, license } from './package.json'
+import { homepage, license, name, version } from './package.json'
 
 export default defineConfig((config) => {
   return {
