@@ -13,12 +13,14 @@
   "devDependencies": {
     "@crashmax/prettier-config": "^2.0.3",
     "@crashmax/tsconfig": "^1.0.2",
+    "@preact/preset-vite": "^2.4.0",
     "sass": "^1.54.9",
     "typescript": "^4.8.3",
     "vite": "^3.1.3",
     "vite-userscript-plugin": "^1.5.0"
   },
   "dependencies": {
-    "redom": "^3.29.1"
+    "@preact/signals": "^1.1.1",
+    "preact": "^10.11.0"
   }
 }
