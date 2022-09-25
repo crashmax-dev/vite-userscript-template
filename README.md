@@ -8,6 +8,7 @@
 - [jsx (redom-jsx)](https://github.com/crashmax-dev/vite-userscript-template/tree/jsx)
 - [reatom (redom-jsx + reatom v2)](https://github.com/crashmax-dev/vite-userscript-template/tree/reatom)
 - [imba](https://github.com/crashmax-dev/vite-userscript-template/tree/imba)
+- [preact](https://github.com/crashmax-dev/vite-userscript-template/tree/preact)
 
 ## Development
 
