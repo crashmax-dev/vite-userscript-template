@@ -7,7 +7,7 @@ specifiers:
   typescript: ^4.8.4
   vite: ^3.2.3
   vite-plugin-imba: ^0.10.1
-  vite-userscript-plugin: latest
+  vite-userscript-plugin: ^1.6.3
 
 dependencies:
   imba: 2.0.0-alpha.225_x4hkloqflgdlqs2ph76taw4rkm
@@ -18,7 +18,7 @@ devDependencies:
   typescript: 4.8.4
   vite: 3.2.3
   vite-plugin-imba: 0.10.1_qo23647zoqifb4uaqwbbthfsnm
-  vite-userscript-plugin: 1.6.2_vite@3.2.3
+  vite-userscript-plugin: 1.6.3_vite@3.2.3
 
 packages:
 
@@ -479,7 +479,7 @@ packages:
   /@vue/compiler-core/3.2.45:
     resolution: {integrity: sha512-rcMj7H+PYe5wBV3iYeUgbCglC+pbpN8hBLTJvRiK2eKQiWqu+fG9F+8sW99JdL4LQi7Re178UOxn09puSXvn4A==}
     dependencies:
-      '@babel/parser': 7.18.9
+      '@babel/parser': 7.20.3
       '@vue/shared': 3.2.45
       estree-walker: 2.0.2
       source-map: 0.6.1
@@ -517,7 +517,7 @@ packages:
   /@vue/reactivity-transform/3.2.45:
     resolution: {integrity: sha512-BHVmzYAvM7vcU5WmuYqXpwaBHjsS8T63jlKGWVtHxAHIoMIlmaMyurUSEs1Zcg46M4AYT5MtB1U274/2aNzjJQ==}
     dependencies:
-      '@babel/parser': 7.18.9
+      '@babel/parser': 7.20.3
       '@vue/compiler-core': 3.2.45
       '@vue/shared': 3.2.45
       estree-walker: 2.0.2
@@ -2013,8 +2013,8 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /vite-userscript-plugin/1.6.2_vite@3.2.3:
-    resolution: {integrity: sha512-O+Qf30T6h/l0AmsEIiX/4Ys/9wOh9g6deh+lgxETT4mkyDYZQQDRLf1c+k6JGzvTa2qLB6J6omrCNe3ISiZwLg==}
+  /vite-userscript-plugin/1.6.3_vite@3.2.3:
+    resolution: {integrity: sha512-1T39yQNNyG5GACyvj9jBnjzwg4QQzGeOh91GQO75kcKfF5937f+CwSI2TVwBzoGcVTz6n0SQL9VbESF/Knq74A==}
     peerDependencies:
       vite: '>=2.9.0'
     dependencies:
