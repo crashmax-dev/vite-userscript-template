@@ -8,7 +8,7 @@ specifiers:
   typescript: ^4.8.4
   vite: ^3.2.3
   vite-redom-jsx: ^2.1.1
-  vite-userscript-plugin: latest
+  vite-userscript-plugin: ^1.6.3
 
 dependencies:
   redom-jsx: 3.29.4
@@ -20,7 +20,7 @@ devDependencies:
   typescript: 4.8.4
   vite: 3.2.3_sass@1.56.1
   vite-redom-jsx: 2.1.1_dgfdexrys7cxydiwaecp7j7tfe
-  vite-userscript-plugin: 1.6.2_vite@3.2.3
+  vite-userscript-plugin: 1.6.3_vite@3.2.3
 
 packages:
 
@@ -1481,8 +1481,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-userscript-plugin/1.6.2_vite@3.2.3:
-    resolution: {integrity: sha512-O+Qf30T6h/l0AmsEIiX/4Ys/9wOh9g6deh+lgxETT4mkyDYZQQDRLf1c+k6JGzvTa2qLB6J6omrCNe3ISiZwLg==}
+  /vite-userscript-plugin/1.6.3_vite@3.2.3:
+    resolution: {integrity: sha512-1T39yQNNyG5GACyvj9jBnjzwg4QQzGeOh91GQO75kcKfF5937f+CwSI2TVwBzoGcVTz6n0SQL9VbESF/Knq74A==}
     peerDependencies:
       vite: '>=2.9.0'
     dependencies:
