@@ -1,24 +1,8 @@
 import { mount } from 'redom-jsx'
+import { ctx, counterAtom } from './state.js'
 import type { RedomComponent, RedomEl } from 'redom-jsx'
-import { createAtom } from '@reatom/core'
 import './style.scss'
-
-const counterAtom = createAtom(
-  {
-    increase: () => {},
-    decrease: () => {},
-    reset: () => 0
-  },
-  ({ onAction, schedule }, state = 0) => {
-    onAction('increase', () => state++)
-    onAction('decrease', () => state--)
-    onAction('reset', (value) => (state = value))
-
-    schedule(() => console.log(`Counter: ${state}`))
-
-    return state
-  }
-)
+import { onUpdate } from '@reatom/framework'
 
 class Counter implements RedomComponent {
   el: RedomEl
@@ -27,15 +11,18 @@ class Counter implements RedomComponent {
   constructor() {
     // prettier-ignore
     <div this="el" className="card">
-      <h1 this="h1"></h1>
-      <button onclick={() => counterAtom.decrease.dispatch()}>decrease</button>
-      <button onclick={() => counterAtom.reset.dispatch()}>reset</button>
-      <button onclick={() => counterAtom.increase.dispatch()}>increase</button>
+      <h1 this="h1">{ctx.get(counterAtom)}</h1>
+      <button onclick={() => counterAtom.increment(ctx)}>increment</button>
+      <button onclick={() => counterAtom.reset(ctx)}>reset</button>
+      <button onclick={() => counterAtom.decrement(ctx)}>decrement</button>
     </div>
   }
 }
 
 const counter = new Counter()
-counterAtom.subscribe((value) => (counter.h1.textContent = `${value}`))
+
+onUpdate(counterAtom, () => {
+  (counter.h1.textContent = `${ctx.get(counterAtom)}`)
+})
 
 mount(document.body, counter)
