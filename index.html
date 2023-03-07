@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vite-userscript-template</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 0;
+      padding-top: 1rem;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      margin-top: 1rem;
+      border: none;
+      border-radius: 0.25rem;
+      background-color: #000;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>vite-userscript-template</h1>
+    <p>Template for creating Userscripts with Vite</p>
+    <button>Install</button>
+  </div>
+  <script>
+    const isDev = location.hostname === 'localhost'
+    const button = document.querySelector('button')
+    button.addEventListener('click', () => {
+      if (isDev) {
+        location.href = 'vite-userscript-template.proxy.user.js'
+      } else {
+        location.href = 'vite-userscript-template.user.js'
+      }
+    })
+
+    if (isDev) {
+      button.textContent = 'Install proxy Userscript for development mode'
+    }
+  </script>
+</body>
+
+</html>
