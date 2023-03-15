@@ -7,7 +7,7 @@ specifiers:
   sass: 1.59.3
   typescript: 4.9.5
   vite: 4.1.4
-  vite-userscript-plugin: 1.7.0
+  vite-userscript-plugin: 1.7.1
 
 dependencies:
   redom: 3.29.1
@@ -18,7 +18,7 @@ devDependencies:
   sass: 1.59.3
   typescript: 4.9.5
   vite: 4.1.4_sass@1.59.3
-  vite-userscript-plugin: 1.7.0_vite@4.1.4
+  vite-userscript-plugin: 1.7.1_vite@4.1.4
 
 packages:
 
@@ -1112,8 +1112,8 @@ packages:
       node-gyp-build: 4.6.0
     dev: true
 
-  /vite-userscript-plugin/1.7.0_vite@4.1.4:
-    resolution: {integrity: sha512-vdabSuqC2rxWOia0qxziQrtJoXfejDlIZ4duJcxFafzET9b8MbixzNr7J5sTrslMqN8qQrAmq3Z+fgZTOjYcFg==}
+  /vite-userscript-plugin/1.7.1_vite@4.1.4:
+    resolution: {integrity: sha512-lhOhIGmyRTQttg7tjG53WPY6V3ooSYa3xAQ+HPaAE8v1X4q/uJgc+9UT9lLT1ghQP0Lw4atBKnFb93Drohj8YQ==}
     peerDependencies:
       vite: '>=3.0.0'
     dependencies:
