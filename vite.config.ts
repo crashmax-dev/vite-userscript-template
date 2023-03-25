@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import Userscript from 'vite-userscript-plugin'
-import { name, version, homepage, license } from './package.json'
+import { name, version, homepage, license, author } from './package.json'
 
 export default defineConfig((config) => {
   return {
@@ -10,6 +10,7 @@ export default defineConfig((config) => {
         header: {
           name,
           version,
+          author,
           license,
           homepage,
           match: [

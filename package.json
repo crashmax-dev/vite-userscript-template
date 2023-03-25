@@ -4,6 +4,7 @@
   "homepage": "https://crashmax-dev.github.io/vite-userscript-template/",
   "version": "0.0.1",
   "type": "module",
+  "author": "crashmax <userscript@crashmax.ru>",
   "license": "MIT",
   "scripts": {
     "dev": "vite build --watch --mode development",
