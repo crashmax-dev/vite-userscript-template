@@ -1,7 +1,7 @@
-import { el, mount } from 'redom'
+import { el } from '@zero-dependency/dom'
 import './style.scss'
 
-const App = el(
+const card = el(
   'div',
   { className: 'card' },
   el('h1', { className: 'title' }, 'Hello World'),
@@ -12,4 +12,4 @@ const App = el(
   el('a', { href: 'https://google.com', target: '_blank' }, 'Link')
 )
 
-mount(document.body, App)
+document.body.appendChild(card)

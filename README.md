@@ -2,11 +2,15 @@
 
 > This template is based on [Vite](https://vitejs.dev) and [vite-userscript-plugin](https://github.com/crashmax-dev/vite-userscript-plugin)
 
+### Install Userscript
+
+> [vite-userscript-template.user.js](https://crashmax-dev.github.io/vite-userscript-template/vite-userscript-template.user.js)
+
 ## Branches
 
-- [master (redom)](https://github.com/crashmax-dev/vite-userscript-template)
-- [jsx (redom-jsx)](https://github.com/crashmax-dev/vite-userscript-template/tree/jsx)
-- [reatom (redom-jsx + reatom v3)](https://github.com/crashmax-dev/vite-userscript-template/tree/reatom)
+- [master](https://github.com/crashmax-dev/vite-userscript-template)
+- [jsx](https://github.com/crashmax-dev/vite-userscript-template/tree/jsx)
+- [reatom](https://github.com/crashmax-dev/vite-userscript-template/tree/reatom)
 - [imba](https://github.com/crashmax-dev/vite-userscript-template/tree/imba)
 - [preact](https://github.com/crashmax-dev/vite-userscript-template/tree/preact)
 
