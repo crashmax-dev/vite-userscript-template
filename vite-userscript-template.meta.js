@@ -3,6 +3,7 @@
 // @version     0.0.1
 // @license     MIT
 // @homepage    https://crashmax-dev.github.io/vite-userscript-template/
+// @match       http://localhost:3000
 // @match       https://example.com
 // @grant       GM_addStyle
 // @updateURL   https://crashmax-dev.github.io/vite-userscript-template/vite-userscript-template.meta.js
