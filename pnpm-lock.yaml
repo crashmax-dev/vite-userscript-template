@@ -9,7 +9,7 @@ specifiers:
   sass: 1.60.0
   typescript: 5.0.2
   vite: 4.2.1
-  vite-userscript-plugin: 1.8.0
+  vite-userscript-plugin: 1.8.1
 
 dependencies:
   '@zero-dependency/dom': 0.12.0
@@ -22,7 +22,7 @@ devDependencies:
   sass: 1.60.0
   typescript: 5.0.2
   vite: 4.2.1_sass@1.60.0
-  vite-userscript-plugin: 1.8.0_vite@4.2.1
+  vite-userscript-plugin: 1.8.1_vite@4.2.1
 
 packages:
 
@@ -571,7 +571,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001469
+      caniuse-lite: 1.0.30001470
       electron-to-chromium: 1.4.340
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
@@ -590,8 +590,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /caniuse-lite/1.0.30001469:
-    resolution: {integrity: sha512-Rcp7221ScNqQPP3W+lVOYDyjdR6dC+neEQCttoNr5bAyz54AboB4iwpnWgyi8P4YUsPybVzT4LgWiBbI3drL4g==}
+  /caniuse-lite/1.0.30001470:
+    resolution: {integrity: sha512-065uNwY6QtHCBOExzbV6m236DDhYCCtPmQUCoQtwkVqzud8v5QPidoMr6CoMkC2nfp6nksjttqWQRRh75LqUmA==}
     dev: true
 
   /chalk/2.4.2:
@@ -1130,8 +1130,8 @@ packages:
       node-gyp-build: 4.6.0
     dev: true
 
-  /vite-userscript-plugin/1.8.0_vite@4.2.1:
-    resolution: {integrity: sha512-Go87A4Kj7vCT4txNTW236EF45s3pGXJFSjzhAYB0jlACny/lolbOj5A3kwJJzqTiKP0dGTmQ8NleS/yMgnlMSg==}
+  /vite-userscript-plugin/1.8.1_vite@4.2.1:
+    resolution: {integrity: sha512-GHSUk4CyqwOdvCiNBriFDXcQ44noYktV6+KigUXwAqoCB/6JGFteKQaspiWcEnlGWnj+C1P5NSRvE5Z3BtAQkw==}
     peerDependencies:
       vite: '>=3.0.0'
     dependencies:

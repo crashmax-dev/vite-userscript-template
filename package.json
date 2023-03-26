@@ -17,7 +17,7 @@
     "sass": "1.60.0",
     "typescript": "5.0.2",
     "vite": "4.2.1",
-    "vite-userscript-plugin": "1.8.0"
+    "vite-userscript-plugin": "1.8.1"
   },
   "dependencies": {
     "@zero-dependency/dom": "0.12.0",
