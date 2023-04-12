@@ -2,7 +2,7 @@
   "name": "vite-userscript-template",
   "private": true,
   "homepage": "https://crashmax-dev.github.io/vite-userscript-template/",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "author": "crashmax <userscript@crashmax.ru>",
   "license": "MIT",
