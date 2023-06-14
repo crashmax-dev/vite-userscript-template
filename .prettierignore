@@ -1,7 +1,9 @@
 node_modules
 dist
+public
 build
 logs
+coverage
 .next
 .turbo
 .github
@@ -18,6 +20,5 @@ logs
 *rc.*
 *.htm
 *.html
-*.json
 *.md
 .*ignore
