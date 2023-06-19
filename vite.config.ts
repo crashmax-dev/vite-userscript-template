@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import Userscript from 'vite-userscript-plugin'
-import { name, version, homepage, license, author } from './package.json'
+import { author, homepage, license, name, version } from './package.json'
 
 export default defineConfig((config) => {
   return {
@@ -13,10 +13,7 @@ export default defineConfig((config) => {
           author,
           license,
           homepage,
-          match: [
-            'http://localhost:3000',
-            'https://example.com'
-          ]
+          match: ['http://localhost:3000', 'https://example.com']
         },
         server: {
           port: 3000
