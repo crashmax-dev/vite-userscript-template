@@ -13,6 +13,8 @@
 
     body {
       font-family: monospace;
+      background-color: #000;
+      color: #fff;
     }
 
     .container {
@@ -22,14 +24,17 @@
       justify-content: center;
       height: 100vh;
       gap: 1rem;
+      padding: 1rem;
     }
 
     .container > h1 {
       font-size: 2rem;
+      text-align: center;
     }
 
     .container > p {
       font-size: 1rem;
+      text-align: center;
     }
 
     .container > button {
@@ -37,8 +42,8 @@
       line-height: 2rem;
       border: none;
       border-radius: 0.25rem;
-      background-color: #000;
-      color: #fff;
+      border: 1px solid #000;
+      color: #000;
       font-size: 1rem;
       cursor: pointer;
       font-family: inherit;
@@ -49,8 +54,8 @@
 
 <body>
   <div class="container">
-    <h1 class="title">vite-userscript-template</h1>
-    <p class="description">Template for creating Userscripts with Vite</p>
+    <h1>vite-userscript-template</h1>
+    <p>Template for creating Userscripts with Vite</p>
     <button>Install</button>
   </div>
   <script>
