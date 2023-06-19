@@ -6,48 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>vite-userscript-template</title>
   <style>
-    body {
+    * {
       margin: 0;
-      padding: 0;
-      font-family: sans-serif;
+      box-sizing: border-box;
     }
 
-    div {
+    body {
+      font-family: monospace;
+    }
+
+    .container {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 100vh;
+      gap: 1rem;
     }
 
-    h1 {
+    .container > h1 {
       font-size: 2rem;
-      margin: 0;
     }
 
-    p {
+    .container > p {
       font-size: 1rem;
-      margin: 0;
-      padding-top: 1rem;
     }
 
-    button {
-      padding: 0.5rem 1rem;
-      margin-top: 1rem;
+    .container > button {
+      height: 2rem;
+      line-height: 2rem;
       border: none;
       border-radius: 0.25rem;
       background-color: #000;
       color: #fff;
       font-size: 1rem;
       cursor: pointer;
+      font-family: inherit;
+      text-transform: uppercase;
     }
   </style>
 </head>
 
 <body>
-  <div>
-    <h1>vite-userscript-template</h1>
-    <p>Template for creating Userscripts with Vite</p>
+  <div class="container">
+    <h1 class="title">vite-userscript-template</h1>
+    <p class="description">Template for creating Userscripts with Vite</p>
     <button>Install</button>
   </div>
   <script>
@@ -60,10 +63,6 @@
         location.href = 'vite-userscript-template.user.js'
       }
     })
-
-    if (isDev) {
-      button.textContent = 'Install proxy Userscript for development mode'
-    }
   </script>
 </body>
 
