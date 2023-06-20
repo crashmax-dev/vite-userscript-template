@@ -12,6 +12,8 @@
 - [jsx](https://github.com/crashmax-dev/vite-userscript-template/tree/jsx)
 - [reatom](https://github.com/crashmax-dev/vite-userscript-template/tree/reatom)
 - [preact](https://github.com/crashmax-dev/vite-userscript-template/tree/preact)
+- [solidjs](https://github.com/crashmax-dev/vite-userscript-template/tree/solidjs)
+- [imba](https://github.com/crashmax-dev/vite-userscript-template/tree/imba)
 
 ## Development
 
