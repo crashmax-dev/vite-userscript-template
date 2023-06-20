@@ -1,21 +1,22 @@
-import { mount } from 'redom-jsx'
+import { createMemo, createSignal } from 'solid-js'
+import { render } from 'solid-js/web'
+import type { Component } from 'solid-js'
 import './style.scss'
 
-function App() {
+const [count, setCount] = createSignal(2)
+const double = createMemo(() => count() * 2)
+
+const App: Component = () => {
   return (
-    <div className="card">
-      <h1 className="title">Hello World</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, ipsa.
-      </p>
-      <a
-        href="https://google.com"
-        target="_blank"
-      >
-        Link
-      </a>
+    <div class="card">
+      <h1 class="title">Hello World</h1>
+      <button onClick={() => setCount(count() + 1)}>
+        {count()} x 2 = {double()}
+      </button>
     </div>
   )
 }
 
-mount(document.body, <App />)
+const fragment = document.createDocumentFragment()
+render(() => <App />, fragment)
+document.body.appendChild(fragment)

@@ -1,12 +1,12 @@
 import { defineConfig } from 'vite'
-import Redom from 'vite-redom-jsx'
+import Solidjs from 'vite-plugin-solid'
 import Userscript from 'vite-userscript-plugin'
 import { name, version, homepage, license } from './package.json'
 
 export default defineConfig((config) => {
   return {
     plugins: [
-      Redom(),
+      Solidjs(),
       Userscript({
         entry: 'src/index.tsx',
         header: {

@@ -1,8 +1,16 @@
 {
   "extends": "@crashmax/tsconfig",
   "compilerOptions": {
-    "outDir": "dist",
-    "jsx": "preserve"
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "noEmit": true,
+    "isolatedModules": true
   },
   "include": [
     "src/**/*"
