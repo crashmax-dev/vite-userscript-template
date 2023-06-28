@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        vite-userscript-template
-// @version     0.0.2
+// @version     0.0.0
 // @author      crashmax <userscript@crashmax.ru>
 // @license     MIT
 // @homepage    https://crashmax-dev.github.io/vite-userscript-template/
