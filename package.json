@@ -15,9 +15,9 @@
     "@crashmax/prettier-config": "3.2.1",
     "@crashmax/tsconfig": "2.0.1",
     "sass": "1.63.6",
-    "typescript": "5.1.5",
-    "vite": "4.3.9",
-    "vite-userscript-plugin": "1.9.0"
+    "typescript": "5.1.6",
+    "vite": "4.4.0",
+    "vite-userscript-plugin": "1.9.1"
   },
   "dependencies": {
     "@zero-dependency/cookie": "1.12.0",
