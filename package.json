@@ -16,8 +16,8 @@
     "@crashmax/tsconfig": "2.0.1",
     "sass": "1.63.6",
     "typescript": "5.1.6",
-    "vite": "4.4.0",
-    "vite-userscript-plugin": "1.9.1"
+    "vite": "4.4.2",
+    "vite-userscript-plugin": "1.10.0"
   },
   "dependencies": {
     "@zero-dependency/cookie": "1.12.0",

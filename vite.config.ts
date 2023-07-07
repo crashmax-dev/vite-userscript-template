@@ -6,6 +6,7 @@ export default defineConfig((config) => {
   return {
     plugins: [
       Userscript({
+        fileName: 'vite-userscript-template',
         entry: 'src/index.ts',
         header: {
           name,
