@@ -1,4 +1,5 @@
 import { el } from '@zero-dependency/dom'
+
 import './style.scss'
 
 const card = el(
